@@ -1,0 +1,10 @@
+name: 'edtech_analytics'
+version: '1.0.0'
+config-version: 2
+
+profile: 'clickhouse'
+target-path: 'target'
+
+models:
+  edtech_analytics:
+    +materialized: table
