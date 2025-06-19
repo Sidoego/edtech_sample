@@ -1,0 +1,10 @@
+edtech_clickhouse:
+  target: dev
+  outputs:
+    dev:
+      type: clickhouse
+      schema: default
+      host: clickhouse-host.example.com
+      user: default
+      password: password
+      port: 8123
